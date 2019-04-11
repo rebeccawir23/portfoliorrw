@@ -21,7 +21,7 @@
    <h1>Rebecca Wirick</h1>
 	</div>
  
-	
+	<img src="public/assets/images/rebecca.jpg" class="img-responsive" alt="rebecca">
 
  
   <div class="menuGrid">
