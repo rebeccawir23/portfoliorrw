@@ -12,6 +12,7 @@
 </head>
 <div class="topnav">
   	<a class="active" href="index.php">Home</a>
+	<a class="active" href="rebecca.php">About</a>
     
 </div>
 
