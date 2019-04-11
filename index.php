@@ -1,54 +1,52 @@
-<
-
-
 <!DOCTYPE html>
 <html>
 <head>
-<link rel = "stylesheetP"
+<script src="myscript.js"></script>
+<link rel = "stylesheet"
    type = "text/css"
-   href = "stylesheetP.css" />
+   href = "stylesheet.css" />
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+	
+	<nav class="topnav" id = "menu">
+  	<li><a class="active" href="#home">Home</a></li>
+	<li><a href="#wirick">Rebecca Wirick</a></li>
+</nav>
 </head>
-<div class="topnav">
-  	<a class="active" href="index.php">Home</a>
-	<a class="active" href="rebecca.php">About</a>
-    
-</div>
-
 	
-	
-<center>  
-  <h1>Rebecca Wirick</h1>
-  
-</center>
-</html>
-<html>
 
-<body>
-	
-<div class="container">
-  <div class="picgrid">
-	 <img class="picture" src="rebecca.jpg" width = 100%>
-	</div>
-  <h3 id="rTitle">Rebecca Wirick</h3>
-	  <center><img src="Images/Wirick.JPG" class="bioPic"></center><br>
-    My name is Rebecca Wirick. I am in my fourth year at Boise State and have one more year after this one. 
-    I changed my major to GIMM last year from computer science and have been enjoying it ever since. 
-    I was born and raised outside of Ft. Worth, Texas and moved to Boise to come to school. On campus I am involved in 
-    The student IMPACT Board as the VP of Marketing so I plan on using the skills I learn this semester in WebDev to create a website for 
-the organization. I currently work at The Discovery Center of Idaho and really like the opportunity that 
-I have through my job get kids excited about STEM opportunities. Outside of school and work, I love to ski, hike, and watch football 
-with friends. I am unsure about my plans after graduation, but I think developing the technology we study into educational use, 
-whether it be in classrooms or training simulations is something I am interested in. </div>
-</body>
-</html>
-
-</center></div>
-
+<center>
+	<div class="header" id="myHeader">
+   <h1>Rebecca Wirick</h1>
 	</div>
  
-</div>
 	
-</body>
+
+ 
+  <div class="menuGrid">
+    <div id="menuLeft">
+		<h2>Team Resources</h2>
+    </div>
+  </div>
+  <hr>
+</center>
+
+<body>
+	<div class="resourceBox"><h4>Trello Board</h4>
+    <blockquote class="trello-board-compact"> <a href="https://trello.com/b/SuAfxu4K/team-sloth">Trello Board</a> </blockquote>
+    <script src="https://p.trellocdn.com/embed.min.js"></script> 
+	  <p>
+	  <h4>GitHub Repository</h4>
+	  <a href="https://github.com/RainyRam/Team-Sloth" target="_blank"><img src="Images/gitThumb.JPG" alt="thumbnail of GitHub Repo"></a></p>
+  </div>
+	
+	<div class="resourceBox">
+	  <h4>Discord</h4>
+	  <iframe src="https://discordapp.com/widget?id=535517966662500352&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+  </div>
+	</body>
+
+	
+
 </html>
