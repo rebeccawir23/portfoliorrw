@@ -11,7 +11,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <div class="topnav">
-  	<a class="active" href="indexP.php">Home</a>
+  	<a class="active" href="index.php">Home</a>
     
 </div>
 
@@ -28,7 +28,7 @@
 	
 <div class="container">
   <div class="picgrid">
-	 <img class="picture" src="IMPACT/image9.jpg" width = 100%>
+	 <img class="picture" src="rebecca.jpg" width = 100%>
 	</div>
   <h3 id="rTitle">Rebecca Wirick</h3>
 	  <center><img src="Images/Wirick.JPG" class="bioPic"></center><br>
